@@ -78,6 +78,16 @@ exactamente un program counter (29357), y sólo una arista entra a esa celda:
 salida. Un salto por carácter emitido. La traza y el grafo de saltos son
 mediciones independientes y coinciden exacto.
 
+**El bucle de salida cuenta en base 3.** El intervalo de pasos entre caracteres
+consecutivos no es constante: vale `1137 + 80k`, donde `k` es el número de
+dígitos ternarios que acarrean. Contra un odómetro base 3 desfasado 36, coincide
+en **653 de 658 casos (99.24%)**, y las cinco discrepancias están espaciadas
+81, 162, 81, 162 — con `81 = 3⁴`, o sea que el residuo también es ternario.
+Encaja con lo que Malbolge es: memoria `3^10` y una operación *crazy* que
+trabaja dígito a dígito en ternario. Los 80 pasos son el precio de propagar un
+dígito. El intervalo corto de 30 pasos es el salto de línea: aparece 27 veces en
+2,000 salidas, y los 820 newlines de 59,852 bytes predicen 27.4.
+
 **Una ley de conservación de flujo, y su única violación es el halt.** Como un
 salto en Malbolge aterriza en el destino y la ejecución reanuda en destino+1:
 

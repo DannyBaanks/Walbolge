@@ -1,0 +1,35 @@
+{
+  "fuente": "quine_lutter.malbolge",
+  "eventos_out_capturados": 2001,
+  "intervalos_analizados": 2000,
+  "ciclo_base_pasos": 1137,
+  "coste_por_acarreo_pasos": 80,
+  "ley": "intervalo = 1137 + 80 * (digitos ternarios que acarrean)",
+  "distribucion_intervalos": {
+    "30": 27,
+    "1132": 27,
+    "1137": 987,
+    "1139": 274,
+    "1141": 27,
+    "1217": 439,
+    "1297": 146,
+    "1377": 49,
+    "1457": 16,
+    "1537": 5,
+    "1617": 2,
+    "1697": 1
+  },
+  "familia_80_eventos": 658,
+  "odometro_base": 3,
+  "odometro_desfase": 36,
+  "coincidencias": 653,
+  "de": 658,
+  "porcentaje": 99.24,
+  "posiciones_discrepantes": [
+    125,
+    206,
+    368,
+    449,
+    611
+  ]
+}
