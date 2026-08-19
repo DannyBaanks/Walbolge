@@ -1,0 +1,47 @@
+{
+  "x1_despachador": {
+    "pcs": [
+      29201
+    ],
+    "descripcion": "matar el pc con 13 destinos y 8.2M saltos",
+    "prediccion": "muere o cambia radicalmente",
+    "observado": "HALTED, 27423 pasos, 0 bytes de salida",
+    "identico": false
+  },
+  "x2_emisor": {
+    "pcs": [
+      29357
+    ],
+    "descripcion": "matar el unico pc que emite",
+    "prediccion": "0 bytes de salida",
+    "observado": "HALTED, 69547437 pasos, 59852 bytes de salida, IDENTICO al baseline",
+    "identico": true
+  },
+  "x3_boca_entrada": {
+    "pcs": [
+      29358
+    ],
+    "descripcion": "cortar la entrada a la boca",
+    "prediccion": "0 bytes de salida",
+    "observado": "HALTED, 19609 pasos, 0 bytes de salida",
+    "identico": false
+  },
+  "x4_halt": {
+    "pcs": [
+      29265
+    ],
+    "descripcion": "quitar la instruccion de halt",
+    "prediccion": "NO termina: MAX_STEPS",
+    "observado": "HALTED, 69549989 pasos, 59855 bytes de salida",
+    "identico": false
+  },
+  "x5_control": {
+    "pcs": [
+      29270
+    ],
+    "descripcion": "CONTROL: pc que nunca se ejecuta",
+    "prediccion": "identico al baseline",
+    "observado": "HALTED, 19740 pasos, 1 bytes de salida",
+    "identico": false
+  }
+}

@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "walbolge"
+version = "0.1.0"
+description = "Walbolge — el inverso del Malbolge Translator: del programa .mal al texto original"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+walbolge = "walbolge.cli:main"
+
+[tool.setuptools]
+packages = ["walbolge"]

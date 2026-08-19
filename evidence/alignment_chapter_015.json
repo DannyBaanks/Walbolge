@@ -1,0 +1,549 @@
+{
+  "regions": [
+    {
+      "kind": "BOOTSTRAP",
+      "start": 0,
+      "end": 100,
+      "label": "i+o*99"
+    },
+    {
+      "kind": "WORD",
+      "start": 100,
+      "end": 291,
+      "label": "'CHAPTER'",
+      "index": 0,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 291,
+      "end": 321,
+      "label": "' '",
+      "index": 1,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 321,
+      "end": 353,
+      "label": "'XVII'",
+      "index": 2,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 353,
+      "end": 379,
+      "label": "' '",
+      "index": 3,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 379,
+      "end": 410,
+      "label": "'IN'",
+      "index": 4,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 410,
+      "end": 413,
+      "label": "' '",
+      "index": 5,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 413,
+      "end": 663,
+      "label": "'WHICH'",
+      "index": 6,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 663,
+      "end": 684,
+      "label": "'\\n'",
+      "index": 7,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 684,
+      "end": 783,
+      "label": "'ARE'",
+      "index": 8,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 783,
+      "end": 883,
+      "label": "' '",
+      "index": 9,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 883,
+      "end": 995,
+      "label": "'CONTAINED'",
+      "index": 10,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 995,
+      "end": 1013,
+      "label": "' '",
+      "index": 11,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 1013,
+      "end": 1030,
+      "label": "'THE'",
+      "index": 12,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 1030,
+      "end": 1090,
+      "label": "' '",
+      "index": 13,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 1090,
+      "end": 1325,
+      "label": "'INNUMERABLE'",
+      "index": 14,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 1325,
+      "end": 1337,
+      "label": "' '",
+      "index": 15,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 1337,
+      "end": 1585,
+      "label": "'TROUBLES'",
+      "index": 16,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 1585,
+      "end": 1609,
+      "label": "' '",
+      "index": 17,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 1609,
+      "end": 1914,
+      "label": "'WHICH'",
+      "index": 18,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 1914,
+      "end": 1925,
+      "label": "' '",
+      "index": 19,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 1925,
+      "end": 1997,
+      "label": "'THE'",
+      "index": 20,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 1997,
+      "end": 2013,
+      "label": "' '",
+      "index": 21,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 2013,
+      "end": 2222,
+      "label": "'BRAVE'",
+      "index": 22,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 2222,
+      "end": 2293,
+      "label": "' '",
+      "index": 23,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 2293,
+      "end": 2357,
+      "label": "'DON'",
+      "index": 24,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 2357,
+      "end": 2393,
+      "label": "' '",
+      "index": 25,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 2393,
+      "end": 2504,
+      "label": "'QUIXOTE'",
+      "index": 26,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 2504,
+      "end": 2510,
+      "label": "' '",
+      "index": 27,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 2510,
+      "end": 2669,
+      "label": "'AND'",
+      "index": 28,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 2669,
+      "end": 2673,
+      "label": "' '",
+      "index": 29,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 2673,
+      "end": 2713,
+      "label": "'HIS'",
+      "index": 30,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 2713,
+      "end": 2718,
+      "label": "'\\n'",
+      "index": 31,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 2718,
+      "end": 2797,
+      "label": "'GOOD'",
+      "index": 32,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 2797,
+      "end": 2836,
+      "label": "' '",
+      "index": 33,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 2836,
+      "end": 2894,
+      "label": "'SQUIRE'",
+      "index": 34,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 2894,
+      "end": 2974,
+      "label": "' '",
+      "index": 35,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 2974,
+      "end": 3107,
+      "label": "'SANCHO'",
+      "index": 36,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 3107,
+      "end": 3125,
+      "label": "' '",
+      "index": 37,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 3125,
+      "end": 3159,
+      "label": "'PANZA'",
+      "index": 38,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 3159,
+      "end": 3189,
+      "label": "' '",
+      "index": 39,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 3189,
+      "end": 3361,
+      "label": "'ENDURED'",
+      "index": 40,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 3361,
+      "end": 3383,
+      "label": "' '",
+      "index": 41,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 3383,
+      "end": 3407,
+      "label": "'IN'",
+      "index": 42,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 3407,
+      "end": 3449,
+      "label": "' '",
+      "index": 43,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 3449,
+      "end": 3621,
+      "label": "'THE'",
+      "index": 44,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 3621,
+      "end": 3675,
+      "label": "' '",
+      "index": 45,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 3675,
+      "end": 3718,
+      "label": "'INN,'",
+      "index": 46,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 3718,
+      "end": 3730,
+      "label": "' '",
+      "index": 47,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 3730,
+      "end": 3829,
+      "label": "'WHICH'",
+      "index": 48,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 3829,
+      "end": 3865,
+      "label": "' '",
+      "index": 49,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 3865,
+      "end": 3883,
+      "label": "'TO'",
+      "index": 50,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 3883,
+      "end": 3891,
+      "label": "' '",
+      "index": 51,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 3891,
+      "end": 3923,
+      "label": "'HIS'",
+      "index": 52,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 3923,
+      "end": 3935,
+      "label": "' '",
+      "index": 53,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 3935,
+      "end": 4132,
+      "label": "'MISFORTUNE'",
+      "index": 54,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 4132,
+      "end": 4159,
+      "label": "' '",
+      "index": 55,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 4159,
+      "end": 4332,
+      "label": "'HE'",
+      "index": 56,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 4332,
+      "end": 4343,
+      "label": "'\\n'",
+      "index": 57,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 4343,
+      "end": 4471,
+      "label": "'TOOK'",
+      "index": 58,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 4471,
+      "end": 4480,
+      "label": "' '",
+      "index": 59,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 4480,
+      "end": 4515,
+      "label": "'TO'",
+      "index": 60,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 4515,
+      "end": 4538,
+      "label": "' '",
+      "index": 61,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 4538,
+      "end": 4555,
+      "label": "'BE'",
+      "index": 62,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 4555,
+      "end": 4621,
+      "label": "' '",
+      "index": 63,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 4621,
+      "end": 4704,
+      "label": "'A'",
+      "index": 64,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 4704,
+      "end": 4737,
+      "label": "' '",
+      "index": 65,
+      "matches_full": true
+    },
+    {
+      "kind": "WORD",
+      "start": 4737,
+      "end": 4897,
+      "label": "'CASTLE'",
+      "index": 66,
+      "matches_full": true
+    }
+  ],
+  "gaps": [],
+  "word_texts_match_processed": true,
+  "divergence": -1
+}

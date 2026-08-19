@@ -1,0 +1,6670 @@
+{
+  "chapters": [
+    {
+      "chapter": 1,
+      "decode_matches_op": true,
+      "output_matches_processed": true,
+      "output_matches_original": true,
+      "words_match": true,
+      "bootstrap_detected": true,
+      "halt_reason": "halt_opcode",
+      "steps": 2632,
+      "executed_ratio": 0.9641,
+      "output_len": 101,
+      "opcodes": 2730,
+      "words_count": 35,
+      "word_files": {
+        "status": "checked",
+        "found": 35,
+        "concat_with_bootstrap_matches_full": true,
+        "last_word_includes_halt_v": true,
+        "words_match_count": 35,
+        "per_word": [
+          {
+            "file": "quijote_ch001_word_0000",
+            "word_text": "CHAPTER",
+            "span": [
+              100,
+              291
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch001_word_0001",
+            "word_text": " ",
+            "span": [
+              291,
+              321
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch001_word_0002",
+            "word_text": "I",
+            "span": [
+              321,
+              339
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch001_word_0003",
+            "word_text": " ",
+            "span": [
+              339,
+              348
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch001_word_0004",
+            "word_text": "WHICH",
+            "span": [
+              348,
+              434
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch001_word_0005",
+            "word_text": " ",
+            "span": [
+              434,
+              436
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch001_word_0006",
+            "word_text": "TREATS",
+            "span": [
+              436,
+              738
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch001_word_0007",
+            "word_text": " ",
+            "span": [
+              738,
+              768
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch001_word_0008",
+            "word_text": "OF",
+            "span": [
+              768,
+              800
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch001_word_0009",
+            "word_text": " ",
+            "span": [
+              800,
+              812
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch001_word_0010",
+            "word_text": "THE",
+            "span": [
+              812,
+              868
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch001_word_0011",
+            "word_text": " ",
+            "span": [
+              868,
+              922
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch001_word_0012",
+            "word_text": "CHARACTER",
+            "span": [
+              922,
+              1141
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch001_word_0013",
+            "word_text": " ",
+            "span": [
+              1141,
+              1165
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch001_word_0014",
+            "word_text": "AND",
+            "span": [
+              1165,
+              1246
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch001_word_0015",
+            "word_text": "\n",
+            "span": [
+              1246,
+              1250
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch001_word_0016",
+            "word_text": "PURSUITS",
+            "span": [
+              1250,
+              1525
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch001_word_0017",
+            "word_text": " ",
+            "span": [
+              1525,
+              1555
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch001_word_0018",
+            "word_text": "OF",
+            "span": [
+              1555,
+              1596
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch001_word_0019",
+            "word_text": " ",
+            "span": [
+              1596,
+              1600
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch001_word_0020",
+            "word_text": "THE",
+            "span": [
+              1600,
+              1670
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch001_word_0021",
+            "word_text": " ",
+            "span": [
+              1670,
+              1694
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch001_word_0022",
+            "word_text": "FAMOUS",
+            "span": [
+              1694,
+              1855
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch001_word_0023",
+            "word_text": " ",
+            "span": [
+              1855,
+              1891
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch001_word_0024",
+            "word_text": "GENTLEMAN",
+            "span": [
+              1891,
+              2303
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch001_word_0025",
+            "word_text": " ",
+            "span": [
+              2303,
+              2309
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch001_word_0026",
+            "word_text": "DON",
+            "span": [
+              2309,
+              2403
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch001_word_0027",
+            "word_text": " ",
+            "span": [
+              2403,
+              2409
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch001_word_0028",
+            "word_text": "QUIXOTE",
+            "span": [
+              2409,
+              2502
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch001_word_0029",
+            "word_text": " ",
+            "span": [
+              2502,
+              2510
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch001_word_0030",
+            "word_text": "OF",
+            "span": [
+              2510,
+              2579
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch001_word_0031",
+            "word_text": " ",
+            "span": [
+              2579,
+              2582
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch001_word_0032",
+            "word_text": "LA",
+            "span": [
+              2582,
+              2604
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch001_word_0033",
+            "word_text": " ",
+            "span": [
+              2604,
+              2610
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch001_word_0034",
+            "word_text": "MANCHA",
+            "span": [
+              2610,
+              2730
+            ],
+            "matches_full": true
+          }
+        ]
+      }
+    },
+    {
+      "chapter": 2,
+      "decode_matches_op": true,
+      "output_matches_processed": true,
+      "output_matches_original": true,
+      "words_match": true,
+      "bootstrap_detected": true,
+      "halt_reason": "halt_opcode",
+      "steps": 1766,
+      "executed_ratio": 0.9474,
+      "output_len": 83,
+      "opcodes": 1864,
+      "words_count": 29,
+      "word_files": {
+        "status": "checked",
+        "found": 29,
+        "concat_with_bootstrap_matches_full": true,
+        "last_word_includes_halt_v": true,
+        "words_match_count": 29,
+        "per_word": [
+          {
+            "file": "quijote_ch002_word_0000",
+            "word_text": "CHAPTER",
+            "span": [
+              100,
+              291
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch002_word_0001",
+            "word_text": " ",
+            "span": [
+              291,
+              321
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch002_word_0002",
+            "word_text": "II",
+            "span": [
+              321,
+              341
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch002_word_0003",
+            "word_text": " ",
+            "span": [
+              341,
+              379
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch002_word_0004",
+            "word_text": "WHICH",
+            "span": [
+              379,
+              475
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch002_word_0005",
+            "word_text": " ",
+            "span": [
+              475,
+              505
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch002_word_0006",
+            "word_text": "TREATS",
+            "span": [
+              505,
+              639
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch002_word_0007",
+            "word_text": " ",
+            "span": [
+              639,
+              681
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch002_word_0008",
+            "word_text": "OF",
+            "span": [
+              681,
+              713
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch002_word_0009",
+            "word_text": " ",
+            "span": [
+              713,
+              724
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch002_word_0010",
+            "word_text": "THE",
+            "span": [
+              724,
+              793
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch002_word_0011",
+            "word_text": " ",
+            "span": [
+              793,
+              799
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch002_word_0012",
+            "word_text": "FIRST",
+            "span": [
+              799,
+              870
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch002_word_0013",
+            "word_text": " ",
+            "span": [
+              870,
+              894
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch002_word_0014",
+            "word_text": "SALLY",
+            "span": [
+              894,
+              986
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch002_word_0015",
+            "word_text": " ",
+            "span": [
+              986,
+              1016
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch002_word_0016",
+            "word_text": "THE",
+            "span": [
+              1016,
+              1110
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch002_word_0017",
+            "word_text": " ",
+            "span": [
+              1110,
+              1134
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch002_word_0018",
+            "word_text": "INGENIOUS",
+            "span": [
+              1134,
+              1318
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch002_word_0019",
+            "word_text": "\n",
+            "span": [
+              1318,
+              1335
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch002_word_0020",
+            "word_text": "DON",
+            "span": [
+              1335,
+              1363
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch002_word_0021",
+            "word_text": " ",
+            "span": [
+              1363,
+              1404
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch002_word_0022",
+            "word_text": "QUIXOTE",
+            "span": [
+              1404,
+              1541
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch002_word_0023",
+            "word_text": " ",
+            "span": [
+              1541,
+              1606
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch002_word_0024",
+            "word_text": "MADE",
+            "span": [
+              1606,
+              1695
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch002_word_0025",
+            "word_text": " ",
+            "span": [
+              1695,
+              1737
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch002_word_0026",
+            "word_text": "FROM",
+            "span": [
+              1737,
+              1811
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch002_word_0027",
+            "word_text": " ",
+            "span": [
+              1811,
+              1823
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch002_word_0028",
+            "word_text": "HOME",
+            "span": [
+              1823,
+              1864
+            ],
+            "matches_full": true
+          }
+        ]
+      }
+    },
+    {
+      "chapter": 3,
+      "decode_matches_op": true,
+      "output_matches_processed": true,
+      "output_matches_original": true,
+      "words_match": true,
+      "bootstrap_detected": true,
+      "halt_reason": "halt_opcode",
+      "steps": 2149,
+      "executed_ratio": 0.9564,
+      "output_len": 93,
+      "opcodes": 2247,
+      "words_count": 33,
+      "word_files": {
+        "status": "checked",
+        "found": 33,
+        "concat_with_bootstrap_matches_full": true,
+        "last_word_includes_halt_v": true,
+        "words_match_count": 33,
+        "per_word": [
+          {
+            "file": "quijote_ch003_word_0000",
+            "word_text": "CHAPTER",
+            "span": [
+              100,
+              291
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch003_word_0001",
+            "word_text": " ",
+            "span": [
+              291,
+              321
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch003_word_0002",
+            "word_text": "III",
+            "span": [
+              321,
+              343
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch003_word_0003",
+            "word_text": "\n",
+            "span": [
+              343,
+              407
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch003_word_0004",
+            "word_text": "WHEREIN",
+            "span": [
+              407,
+              730
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch003_word_0005",
+            "word_text": " ",
+            "span": [
+              730,
+              769
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch003_word_0006",
+            "word_text": "IS",
+            "span": [
+              769,
+              805
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch003_word_0007",
+            "word_text": " ",
+            "span": [
+              805,
+              840
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch003_word_0008",
+            "word_text": "RELATED",
+            "span": [
+              840,
+              1042
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch003_word_0009",
+            "word_text": " ",
+            "span": [
+              1042,
+              1094
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch003_word_0010",
+            "word_text": "THE",
+            "span": [
+              1094,
+              1133
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch003_word_0011",
+            "word_text": " ",
+            "span": [
+              1133,
+              1145
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch003_word_0012",
+            "word_text": "DROLL",
+            "span": [
+              1145,
+              1353
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch003_word_0013",
+            "word_text": " ",
+            "span": [
+              1353,
+              1364
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch003_word_0014",
+            "word_text": "WAY",
+            "span": [
+              1364,
+              1391
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch003_word_0015",
+            "word_text": " ",
+            "span": [
+              1391,
+              1427
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch003_word_0016",
+            "word_text": "IN",
+            "span": [
+              1427,
+              1473
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch003_word_0017",
+            "word_text": " ",
+            "span": [
+              1473,
+              1476
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch003_word_0018",
+            "word_text": "WHICH",
+            "span": [
+              1476,
+              1533
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch003_word_0019",
+            "word_text": " ",
+            "span": [
+              1533,
+              1567
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch003_word_0020",
+            "word_text": "DON",
+            "span": [
+              1567,
+              1689
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch003_word_0021",
+            "word_text": " ",
+            "span": [
+              1689,
+              1694
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch003_word_0022",
+            "word_text": "QUIXOTE",
+            "span": [
+              1694,
+              1786
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch003_word_0023",
+            "word_text": " ",
+            "span": [
+              1786,
+              1809
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch003_word_0024",
+            "word_text": "HAD",
+            "span": [
+              1809,
+              1866
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch003_word_0025",
+            "word_text": " ",
+            "span": [
+              1866,
+              1896
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch003_word_0026",
+            "word_text": "HIMSELF",
+            "span": [
+              1896,
+              2066
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch003_word_0027",
+            "word_text": " ",
+            "span": [
+              2066,
+              2070
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch003_word_0028",
+            "word_text": "DUBBED",
+            "span": [
+              2070,
+              2139
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch003_word_0029",
+            "word_text": " ",
+            "span": [
+              2139,
+              2163
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch003_word_0030",
+            "word_text": "A",
+            "span": [
+              2163,
+              2175
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch003_word_0031",
+            "word_text": "\n",
+            "span": [
+              2175,
+              2181
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch003_word_0032",
+            "word_text": "KNIGHT",
+            "span": [
+              2181,
+              2247
+            ],
+            "matches_full": true
+          }
+        ]
+      }
+    },
+    {
+      "chapter": 4,
+      "decode_matches_op": true,
+      "output_matches_processed": true,
+      "output_matches_original": true,
+      "words_match": true,
+      "bootstrap_detected": true,
+      "halt_reason": "halt_opcode",
+      "steps": 1456,
+      "executed_ratio": 0.9369,
+      "output_len": 62,
+      "opcodes": 1554,
+      "words_count": 25,
+      "word_files": {
+        "status": "checked",
+        "found": 25,
+        "concat_with_bootstrap_matches_full": true,
+        "last_word_includes_halt_v": true,
+        "words_match_count": 25,
+        "per_word": [
+          {
+            "file": "quijote_ch004_word_0000",
+            "word_text": "CHAPTER",
+            "span": [
+              100,
+              291
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch004_word_0001",
+            "word_text": " ",
+            "span": [
+              291,
+              321
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch004_word_0002",
+            "word_text": "IV",
+            "span": [
+              321,
+              357
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch004_word_0003",
+            "word_text": " ",
+            "span": [
+              357,
+              379
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch004_word_0004",
+            "word_text": "OF",
+            "span": [
+              379,
+              397
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch004_word_0005",
+            "word_text": " ",
+            "span": [
+              397,
+              413
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch004_word_0006",
+            "word_text": "WHAT",
+            "span": [
+              413,
+              526
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch004_word_0007",
+            "word_text": " ",
+            "span": [
+              526,
+              536
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch004_word_0008",
+            "word_text": "HAPPENED",
+            "span": [
+              536,
+              766
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch004_word_0009",
+            "word_text": " ",
+            "span": [
+              766,
+              770
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch004_word_0010",
+            "word_text": "TO",
+            "span": [
+              770,
+              784
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch004_word_0011",
+            "word_text": " ",
+            "span": [
+              784,
+              812
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch004_word_0012",
+            "word_text": "OUR",
+            "span": [
+              812,
+              869
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch004_word_0013",
+            "word_text": "\n",
+            "span": [
+              869,
+              880
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch004_word_0014",
+            "word_text": "KNIGHT",
+            "span": [
+              880,
+              966
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch004_word_0015",
+            "word_text": " ",
+            "span": [
+              966,
+              1002
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch004_word_0016",
+            "word_text": "WHEN",
+            "span": [
+              1002,
+              1106
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch004_word_0017",
+            "word_text": " ",
+            "span": [
+              1106,
+              1237
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch004_word_0018",
+            "word_text": "HE",
+            "span": [
+              1237,
+              1337
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch004_word_0019",
+            "word_text": " ",
+            "span": [
+              1337,
+              1353
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch004_word_0020",
+            "word_text": "LEFT",
+            "span": [
+              1353,
+              1436
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch004_word_0021",
+            "word_text": " ",
+            "span": [
+              1436,
+              1447
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch004_word_0022",
+            "word_text": "THE",
+            "span": [
+              1447,
+              1509
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch004_word_0023",
+            "word_text": " ",
+            "span": [
+              1509,
+              1521
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch004_word_0024",
+            "word_text": "INN",
+            "span": [
+              1521,
+              1554
+            ],
+            "matches_full": true
+          }
+        ]
+      }
+    },
+    {
+      "chapter": 5,
+      "decode_matches_op": true,
+      "output_matches_processed": true,
+      "output_matches_original": false,
+      "words_match": true,
+      "bootstrap_detected": true,
+      "halt_reason": "halt_opcode",
+      "steps": 1726,
+      "executed_ratio": 0.9463,
+      "output_len": 68,
+      "opcodes": 1824,
+      "words_count": 23,
+      "word_files": {
+        "status": "checked",
+        "found": 23,
+        "concat_with_bootstrap_matches_full": true,
+        "last_word_includes_halt_v": true,
+        "words_match_count": 23,
+        "per_word": [
+          {
+            "file": "quijote_ch005_word_0000",
+            "word_text": "CHAPTER",
+            "span": [
+              100,
+              291
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch005_word_0001",
+            "word_text": " ",
+            "span": [
+              291,
+              321
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch005_word_0002",
+            "word_text": "V",
+            "span": [
+              321,
+              339
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch005_word_0003",
+            "word_text": " ",
+            "span": [
+              339,
+              348
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch005_word_0004",
+            "word_text": "IN",
+            "span": [
+              348,
+              391
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch005_word_0005",
+            "word_text": "\n",
+            "span": [
+              391,
+              407
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch005_word_0006",
+            "word_text": "WHICH",
+            "span": [
+              407,
+              588
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch005_word_0007",
+            "word_text": " ",
+            "span": [
+              588,
+              640
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch005_word_0008",
+            "word_text": "THE",
+            "span": [
+              640,
+              666
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch005_word_0009",
+            "word_text": " ",
+            "span": [
+              666,
+              695
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch005_word_0010",
+            "word_text": "NARRATIVE",
+            "span": [
+              695,
+              923
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch005_word_0011",
+            "word_text": " ",
+            "span": [
+              923,
+              939
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch005_word_0012",
+            "word_text": "OF",
+            "span": [
+              939,
+              979
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch005_word_0013",
+            "word_text": " ",
+            "span": [
+              979,
+              985
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch005_word_0014",
+            "word_text": "OUR",
+            "span": [
+              985,
+              1055
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch005_word_0015",
+            "word_text": " ",
+            "span": [
+              1055,
+              1057
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch005_word_0016",
+            "word_text": "KNIGHT'S",
+            "span": [
+              1057,
+              1209
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch005_word_0017",
+            "word_text": " ",
+            "span": [
+              1209,
+              1233
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch005_word_0018",
+            "word_text": "MISHAP",
+            "span": [
+              1233,
+              1375
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch005_word_0019",
+            "word_text": " ",
+            "span": [
+              1375,
+              1404
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch005_word_0020",
+            "word_text": "IS",
+            "span": [
+              1404,
+              1450
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch005_word_0021",
+            "word_text": " ",
+            "span": [
+              1450,
+              1470
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch005_word_0022",
+            "word_text": "CONTINUED",
+            "span": [
+              1470,
+              1824
+            ],
+            "matches_full": true
+          }
+        ]
+      }
+    },
+    {
+      "chapter": 6,
+      "decode_matches_op": true,
+      "output_matches_processed": true,
+      "output_matches_original": true,
+      "words_match": true,
+      "bootstrap_detected": true,
+      "halt_reason": "halt_opcode",
+      "steps": 3588,
+      "executed_ratio": 0.9734,
+      "output_len": 129,
+      "opcodes": 3686,
+      "words_count": 43,
+      "word_files": {
+        "status": "checked",
+        "found": 43,
+        "concat_with_bootstrap_matches_full": true,
+        "last_word_includes_halt_v": true,
+        "words_match_count": 43,
+        "per_word": [
+          {
+            "file": "quijote_ch006_word_0000",
+            "word_text": "CHAPTER",
+            "span": [
+              100,
+              291
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch006_word_0001",
+            "word_text": " ",
+            "span": [
+              291,
+              321
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch006_word_0002",
+            "word_text": "VI",
+            "span": [
+              321,
+              351
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch006_word_0003",
+            "word_text": " ",
+            "span": [
+              351,
+              379
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch006_word_0004",
+            "word_text": "OF",
+            "span": [
+              379,
+              397
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch006_word_0005",
+            "word_text": " ",
+            "span": [
+              397,
+              413
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch006_word_0006",
+            "word_text": "THE",
+            "span": [
+              413,
+              533
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch006_word_0007",
+            "word_text": " ",
+            "span": [
+              533,
+              536
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch006_word_0008",
+            "word_text": "DIVERTING",
+            "span": [
+              536,
+              834
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch006_word_0009",
+            "word_text": " ",
+            "span": [
+              834,
+              852
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch006_word_0010",
+            "word_text": "AND",
+            "span": [
+              852,
+              911
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch006_word_0011",
+            "word_text": " ",
+            "span": [
+              911,
+              977
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch006_word_0012",
+            "word_text": "IMPORTANT",
+            "span": [
+              977,
+              1116
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch006_word_0013",
+            "word_text": " ",
+            "span": [
+              1116,
+              1134
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch006_word_0014",
+            "word_text": "SCRUTINY",
+            "span": [
+              1134,
+              1381
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch006_word_0015",
+            "word_text": " ",
+            "span": [
+              1381,
+              1426
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch006_word_0016",
+            "word_text": "WHICH",
+            "span": [
+              1426,
+              1603
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch006_word_0017",
+            "word_text": "\n",
+            "span": [
+              1603,
+              1621
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch006_word_0018",
+            "word_text": "THE",
+            "span": [
+              1621,
+              1731
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch006_word_0019",
+            "word_text": " ",
+            "span": [
+              1731,
+              1733
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch006_word_0020",
+            "word_text": "CURATE",
+            "span": [
+              1733,
+              1907
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch006_word_0021",
+            "word_text": " ",
+            "span": [
+              1907,
+              1917
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch006_word_0022",
+            "word_text": "AND",
+            "span": [
+              1917,
+              2130
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch006_word_0023",
+            "word_text": " ",
+            "span": [
+              2130,
+              2134
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch006_word_0024",
+            "word_text": "THE",
+            "span": [
+              2134,
+              2316
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch006_word_0025",
+            "word_text": " ",
+            "span": [
+              2316,
+              2332
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch006_word_0026",
+            "word_text": "BARBER",
+            "span": [
+              2332,
+              2407
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch006_word_0027",
+            "word_text": " ",
+            "span": [
+              2407,
+              2447
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch006_word_0028",
+            "word_text": "MADE",
+            "span": [
+              2447,
+              2753
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch006_word_0029",
+            "word_text": " ",
+            "span": [
+              2753,
+              2764
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch006_word_0030",
+            "word_text": "IN",
+            "span": [
+              2764,
+              2789
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch006_word_0031",
+            "word_text": " ",
+            "span": [
+              2789,
+              2792
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch006_word_0032",
+            "word_text": "THE",
+            "span": [
+              2792,
+              2974
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch006_word_0033",
+            "word_text": " ",
+            "span": [
+              2974,
+              2990
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch006_word_0034",
+            "word_text": "LIBRARY",
+            "span": [
+              2990,
+              3221
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch006_word_0035",
+            "word_text": " ",
+            "span": [
+              3221,
+              3251
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch006_word_0036",
+            "word_text": "OF",
+            "span": [
+              3251,
+              3288
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch006_word_0037",
+            "word_text": " ",
+            "span": [
+              3288,
+              3292
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch006_word_0038",
+            "word_text": "OUR",
+            "span": [
+              3292,
+              3345
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch006_word_0039",
+            "word_text": " ",
+            "span": [
+              3345,
+              3356
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch006_word_0040",
+            "word_text": "INGENIOUS",
+            "span": [
+              3356,
+              3483
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch006_word_0041",
+            "word_text": " ",
+            "span": [
+              3483,
+              3495
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch006_word_0042",
+            "word_text": "GENTLEMAN",
+            "span": [
+              3495,
+              3686
+            ],
+            "matches_full": true
+          }
+        ]
+      }
+    },
+    {
+      "chapter": 7,
+      "decode_matches_op": true,
+      "output_matches_processed": true,
+      "output_matches_original": true,
+      "words_match": true,
+      "bootstrap_detected": true,
+      "halt_reason": "halt_opcode",
+      "steps": 1939,
+      "executed_ratio": 0.9519,
+      "output_len": 77,
+      "opcodes": 2037,
+      "words_count": 29,
+      "word_files": {
+        "status": "checked",
+        "found": 29,
+        "concat_with_bootstrap_matches_full": true,
+        "last_word_includes_halt_v": true,
+        "words_match_count": 29,
+        "per_word": [
+          {
+            "file": "quijote_ch007_word_0000",
+            "word_text": "CHAPTER",
+            "span": [
+              100,
+              291
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch007_word_0001",
+            "word_text": " ",
+            "span": [
+              291,
+              321
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch007_word_0002",
+            "word_text": "VII",
+            "span": [
+              321,
+              353
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch007_word_0003",
+            "word_text": " ",
+            "span": [
+              353,
+              379
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch007_word_0004",
+            "word_text": "OF",
+            "span": [
+              379,
+              397
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch007_word_0005",
+            "word_text": " ",
+            "span": [
+              397,
+              413
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch007_word_0006",
+            "word_text": "THE",
+            "span": [
+              413,
+              518
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch007_word_0007",
+            "word_text": " ",
+            "span": [
+              518,
+              536
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch007_word_0008",
+            "word_text": "SECOND",
+            "span": [
+              536,
+              789
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch007_word_0009",
+            "word_text": " ",
+            "span": [
+              789,
+              799
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch007_word_0010",
+            "word_text": "SALLY",
+            "span": [
+              799,
+              941
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch007_word_0011",
+            "word_text": " ",
+            "span": [
+              941,
+              963
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch007_word_0012",
+            "word_text": "OF",
+            "span": [
+              963,
+              985
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch007_word_0013",
+            "word_text": " ",
+            "span": [
+              985,
+              1006
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch007_word_0014",
+            "word_text": "OUR",
+            "span": [
+              1006,
+              1099
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch007_word_0015",
+            "word_text": " ",
+            "span": [
+              1099,
+              1122
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch007_word_0016",
+            "word_text": "WORTHY",
+            "span": [
+              1122,
+              1269
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch007_word_0017",
+            "word_text": "\n",
+            "span": [
+              1269,
+              1308
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch007_word_0018",
+            "word_text": "KNIGHT",
+            "span": [
+              1308,
+              1400
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch007_word_0019",
+            "word_text": " ",
+            "span": [
+              1400,
+              1416
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch007_word_0020",
+            "word_text": "DON",
+            "span": [
+              1416,
+              1502
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch007_word_0021",
+            "word_text": " ",
+            "span": [
+              1502,
+              1541
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch007_word_0022",
+            "word_text": "QUIXOTE",
+            "span": [
+              1541,
+              1675
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch007_word_0023",
+            "word_text": " ",
+            "span": [
+              1675,
+              1686
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch007_word_0024",
+            "word_text": "OF",
+            "span": [
+              1686,
+              1713
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch007_word_0025",
+            "word_text": " ",
+            "span": [
+              1713,
+              1729
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch007_word_0026",
+            "word_text": "LA",
+            "span": [
+              1729,
+              1757
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch007_word_0027",
+            "word_text": " ",
+            "span": [
+              1757,
+              1823
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch007_word_0028",
+            "word_text": "MANCHA",
+            "span": [
+              1823,
+              2037
+            ],
+            "matches_full": true
+          }
+        ]
+      }
+    },
+    {
+      "chapter": 8,
+      "decode_matches_op": true,
+      "output_matches_processed": true,
+      "output_matches_original": true,
+      "words_match": true,
+      "bootstrap_detected": true,
+      "halt_reason": "halt_opcode",
+      "steps": 4301,
+      "executed_ratio": 0.9777,
+      "output_len": 177,
+      "opcodes": 4399,
+      "words_count": 57,
+      "word_files": {
+        "status": "checked",
+        "found": 57,
+        "concat_with_bootstrap_matches_full": true,
+        "last_word_includes_halt_v": true,
+        "words_match_count": 57,
+        "per_word": [
+          {
+            "file": "quijote_ch008_word_0000",
+            "word_text": "CHAPTER",
+            "span": [
+              100,
+              291
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0001",
+            "word_text": " ",
+            "span": [
+              291,
+              321
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0002",
+            "word_text": "VIII",
+            "span": [
+              321,
+              355
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0003",
+            "word_text": "\n",
+            "span": [
+              355,
+              407
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0004",
+            "word_text": "OF",
+            "span": [
+              407,
+              425
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0005",
+            "word_text": " ",
+            "span": [
+              425,
+              442
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0006",
+            "word_text": "THE",
+            "span": [
+              442,
+              460
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0007",
+            "word_text": " ",
+            "span": [
+              460,
+              478
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0008",
+            "word_text": "GOOD",
+            "span": [
+              478,
+              525
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0009",
+            "word_text": " ",
+            "span": [
+              525,
+              536
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0010",
+            "word_text": "FORTUNE",
+            "span": [
+              536,
+              688
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0011",
+            "word_text": " ",
+            "span": [
+              688,
+              693
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0012",
+            "word_text": "WHICH",
+            "span": [
+              693,
+              877
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0013",
+            "word_text": " ",
+            "span": [
+              877,
+              949
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0014",
+            "word_text": "THE",
+            "span": [
+              949,
+              1003
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0015",
+            "word_text": " ",
+            "span": [
+              1003,
+              1006
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0016",
+            "word_text": "VALIANT",
+            "span": [
+              1006,
+              1124
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0017",
+            "word_text": " ",
+            "span": [
+              1124,
+              1188
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0018",
+            "word_text": "DON",
+            "span": [
+              1188,
+              1223
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0019",
+            "word_text": " ",
+            "span": [
+              1223,
+              1288
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0020",
+            "word_text": "QUIXOTE",
+            "span": [
+              1288,
+              1531
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0021",
+            "word_text": " ",
+            "span": [
+              1531,
+              1549
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0022",
+            "word_text": "HAD",
+            "span": [
+              1549,
+              1625
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0023",
+            "word_text": " ",
+            "span": [
+              1625,
+              1627
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0024",
+            "word_text": "IN",
+            "span": [
+              1627,
+              1657
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0025",
+            "word_text": " ",
+            "span": [
+              1657,
+              1686
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0026",
+            "word_text": "THE",
+            "span": [
+              1686,
+              1809
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0027",
+            "word_text": " ",
+            "span": [
+              1809,
+              1856
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0028",
+            "word_text": "TERRIBLE",
+            "span": [
+              1856,
+              2082
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0029",
+            "word_text": " ",
+            "span": [
+              2082,
+              2086
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0030",
+            "word_text": "AND",
+            "span": [
+              2086,
+              2111
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0031",
+            "word_text": "\n",
+            "span": [
+              2111,
+              2123
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0032",
+            "word_text": "UNDREAMT-OF",
+            "span": [
+              2123,
+              2377
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0033",
+            "word_text": " ",
+            "span": [
+              2377,
+              2380
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0034",
+            "word_text": "ADVENTURE",
+            "span": [
+              2380,
+              2646
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0035",
+            "word_text": " ",
+            "span": [
+              2646,
+              2655
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0036",
+            "word_text": "OF",
+            "span": [
+              2655,
+              2666
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0037",
+            "word_text": " ",
+            "span": [
+              2666,
+              2669
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0038",
+            "word_text": "THE",
+            "span": [
+              2669,
+              2740
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0039",
+            "word_text": " ",
+            "span": [
+              2740,
+              2764
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0040",
+            "word_text": "WINDMILLS,",
+            "span": [
+              2764,
+              3064
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0041",
+            "word_text": " ",
+            "span": [
+              3064,
+              3070
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0042",
+            "word_text": "WITH",
+            "span": [
+              3070,
+              3217
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0043",
+            "word_text": " ",
+            "span": [
+              3217,
+              3247
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0044",
+            "word_text": "OTHER",
+            "span": [
+              3247,
+              3357
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0045",
+            "word_text": " ",
+            "span": [
+              3357,
+              3429
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0046",
+            "word_text": "OCCURRENCES",
+            "span": [
+              3429,
+              3780
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0047",
+            "word_text": " ",
+            "span": [
+              3780,
+              3797
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0048",
+            "word_text": "WORTHY",
+            "span": [
+              3797,
+              3888
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0049",
+            "word_text": " ",
+            "span": [
+              3888,
+              3905
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0050",
+            "word_text": "TO",
+            "span": [
+              3905,
+              3986
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0051",
+            "word_text": "\n",
+            "span": [
+              3986,
+              4034
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0052",
+            "word_text": "BE",
+            "span": [
+              4034,
+              4119
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0053",
+            "word_text": " ",
+            "span": [
+              4119,
+              4152
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0054",
+            "word_text": "FITLY",
+            "span": [
+              4152,
+              4231
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0055",
+            "word_text": " ",
+            "span": [
+              4231,
+              4266
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch008_word_0056",
+            "word_text": "RECORDED",
+            "span": [
+              4266,
+              4399
+            ],
+            "matches_full": true
+          }
+        ]
+      }
+    },
+    {
+      "chapter": 9,
+      "decode_matches_op": true,
+      "output_matches_processed": true,
+      "output_matches_original": true,
+      "words_match": true,
+      "bootstrap_detected": true,
+      "halt_reason": "halt_opcode",
+      "steps": 3388,
+      "executed_ratio": 0.9719,
+      "output_len": 120,
+      "opcodes": 3486,
+      "words_count": 37,
+      "word_files": {
+        "status": "checked",
+        "found": 37,
+        "concat_with_bootstrap_matches_full": true,
+        "last_word_includes_halt_v": true,
+        "words_match_count": 37,
+        "per_word": [
+          {
+            "file": "quijote_ch009_word_0000",
+            "word_text": "CHAPTER",
+            "span": [
+              100,
+              291
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch009_word_0001",
+            "word_text": " ",
+            "span": [
+              291,
+              321
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch009_word_0002",
+            "word_text": "IX",
+            "span": [
+              321,
+              350
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch009_word_0003",
+            "word_text": " ",
+            "span": [
+              350,
+              354
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch009_word_0004",
+            "word_text": "IN",
+            "span": [
+              354,
+              410
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch009_word_0005",
+            "word_text": " ",
+            "span": [
+              410,
+              413
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch009_word_0006",
+            "word_text": "WHICH",
+            "span": [
+              413,
+              663
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch009_word_0007",
+            "word_text": " ",
+            "span": [
+              663,
+              669
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch009_word_0008",
+            "word_text": "IS",
+            "span": [
+              669,
+              743
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch009_word_0009",
+            "word_text": "\n",
+            "span": [
+              743,
+              755
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch009_word_0010",
+            "word_text": "CONCLUDED",
+            "span": [
+              755,
+              976
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch009_word_0011",
+            "word_text": " ",
+            "span": [
+              976,
+              981
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch009_word_0012",
+            "word_text": "AND",
+            "span": [
+              981,
+              1082
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch009_word_0013",
+            "word_text": " ",
+            "span": [
+              1082,
+              1110
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch009_word_0014",
+            "word_text": "FINISHED",
+            "span": [
+              1110,
+              1340
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch009_word_0015",
+            "word_text": " ",
+            "span": [
+              1340,
+              1346
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch009_word_0016",
+            "word_text": "THE",
+            "span": [
+              1346,
+              1447
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch009_word_0017",
+            "word_text": " ",
+            "span": [
+              1447,
+              1453
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch009_word_0018",
+            "word_text": "TERRIFIC",
+            "span": [
+              1453,
+              1662
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch009_word_0019",
+            "word_text": " ",
+            "span": [
+              1662,
+              1664
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch009_word_0020",
+            "word_text": "BATTLE",
+            "span": [
+              1664,
+              1835
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch009_word_0021",
+            "word_text": " ",
+            "span": [
+              1835,
+              1889
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch009_word_0022",
+            "word_text": "BETWEEN",
+            "span": [
+              1889,
+              2023
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch009_word_0023",
+            "word_text": " ",
+            "span": [
+              2023,
+              2094
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch009_word_0024",
+            "word_text": "THE",
+            "span": [
+              2094,
+              2152
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch009_word_0025",
+            "word_text": " ",
+            "span": [
+              2152,
+              2170
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch009_word_0026",
+            "word_text": "GALLANT",
+            "span": [
+              2170,
+              2309
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch009_word_0027",
+            "word_text": " ",
+            "span": [
+              2309,
+              2345
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch009_word_0028",
+            "word_text": "BISCAYAN",
+            "span": [
+              2345,
+              2503
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch009_word_0029",
+            "word_text": "\n",
+            "span": [
+              2503,
+              2525
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch009_word_0030",
+            "word_text": "AND",
+            "span": [
+              2525,
+              2675
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch009_word_0031",
+            "word_text": " ",
+            "span": [
+              2675,
+              2763
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch009_word_0032",
+            "word_text": "THE",
+            "span": [
+              2763,
+              2825
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch009_word_0033",
+            "word_text": " ",
+            "span": [
+              2825,
+              2843
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch009_word_0034",
+            "word_text": "VALIANT",
+            "span": [
+              2843,
+              3086
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch009_word_0035",
+            "word_text": " ",
+            "span": [
+              3086,
+              3139
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch009_word_0036",
+            "word_text": "MANCHEGAN",
+            "span": [
+              3139,
+              3486
+            ],
+            "matches_full": true
+          }
+        ]
+      }
+    },
+    {
+      "chapter": 10,
+      "decode_matches_op": true,
+      "output_matches_processed": true,
+      "output_matches_original": true,
+      "words_match": true,
+      "bootstrap_detected": true,
+      "halt_reason": "halt_opcode",
+      "steps": 2478,
+      "executed_ratio": 0.962,
+      "output_len": 95,
+      "opcodes": 2576,
+      "words_count": 31,
+      "word_files": {
+        "status": "checked",
+        "found": 31,
+        "concat_with_bootstrap_matches_full": true,
+        "last_word_includes_halt_v": true,
+        "words_match_count": 31,
+        "per_word": [
+          {
+            "file": "quijote_ch010_word_0000",
+            "word_text": "CHAPTER",
+            "span": [
+              100,
+              291
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch010_word_0001",
+            "word_text": " ",
+            "span": [
+              291,
+              321
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch010_word_0002",
+            "word_text": "X",
+            "span": [
+              321,
+              327
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch010_word_0003",
+            "word_text": " ",
+            "span": [
+              327,
+              338
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch010_word_0004",
+            "word_text": "OF",
+            "span": [
+              338,
+              397
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch010_word_0005",
+            "word_text": " ",
+            "span": [
+              397,
+              413
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch010_word_0006",
+            "word_text": "THE",
+            "span": [
+              413,
+              518
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch010_word_0007",
+            "word_text": "\n",
+            "span": [
+              518,
+              584
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch010_word_0008",
+            "word_text": "PLEASANT",
+            "span": [
+              584,
+              781
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch010_word_0009",
+            "word_text": " ",
+            "span": [
+              781,
+              787
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch010_word_0010",
+            "word_text": "DISCOURSE",
+            "span": [
+              787,
+              967
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch010_word_0011",
+            "word_text": " ",
+            "span": [
+              967,
+              977
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch010_word_0012",
+            "word_text": "THAT",
+            "span": [
+              977,
+              1181
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch010_word_0013",
+            "word_text": " ",
+            "span": [
+              1181,
+              1221
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch010_word_0014",
+            "word_text": "PASSED",
+            "span": [
+              1221,
+              1424
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch010_word_0015",
+            "word_text": " ",
+            "span": [
+              1424,
+              1459
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch010_word_0016",
+            "word_text": "BETWEEN",
+            "span": [
+              1459,
+              1567
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch010_word_0017",
+            "word_text": " ",
+            "span": [
+              1567,
+              1570
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch010_word_0018",
+            "word_text": "DON",
+            "span": [
+              1570,
+              1622
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch010_word_0019",
+            "word_text": " ",
+            "span": [
+              1622,
+              1633
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch010_word_0020",
+            "word_text": "QUIXOTE",
+            "span": [
+              1633,
+              1749
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch010_word_0021",
+            "word_text": " ",
+            "span": [
+              1749,
+              1758
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch010_word_0022",
+            "word_text": "AND",
+            "span": [
+              1758,
+              1923
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch010_word_0023",
+            "word_text": " ",
+            "span": [
+              1923,
+              1927
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch010_word_0024",
+            "word_text": "HIS",
+            "span": [
+              1927,
+              2052
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch010_word_0025",
+            "word_text": " ",
+            "span": [
+              2052,
+              2105
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch010_word_0026",
+            "word_text": "SQUIRE",
+            "span": [
+              2105,
+              2211
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch010_word_0027",
+            "word_text": " ",
+            "span": [
+              2211,
+              2228
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch010_word_0028",
+            "word_text": "SANCHO",
+            "span": [
+              2228,
+              2397
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch010_word_0029",
+            "word_text": "\n",
+            "span": [
+              2397,
+              2407
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch010_word_0030",
+            "word_text": "PANZA",
+            "span": [
+              2407,
+              2576
+            ],
+            "matches_full": true
+          }
+        ]
+      }
+    },
+    {
+      "chapter": 11,
+      "decode_matches_op": true,
+      "output_matches_processed": true,
+      "output_matches_original": true,
+      "words_match": true,
+      "bootstrap_detected": true,
+      "halt_reason": "halt_opcode",
+      "steps": 1621,
+      "executed_ratio": 0.943,
+      "output_len": 60,
+      "opcodes": 1719,
+      "words_count": 19,
+      "word_files": {
+        "status": "checked",
+        "found": 19,
+        "concat_with_bootstrap_matches_full": true,
+        "last_word_includes_halt_v": true,
+        "words_match_count": 19,
+        "per_word": [
+          {
+            "file": "quijote_ch011_word_0000",
+            "word_text": "CHAPTER",
+            "span": [
+              100,
+              291
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch011_word_0001",
+            "word_text": " ",
+            "span": [
+              291,
+              321
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch011_word_0002",
+            "word_text": "XI",
+            "span": [
+              321,
+              339
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch011_word_0003",
+            "word_text": " ",
+            "span": [
+              339,
+              348
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch011_word_0004",
+            "word_text": "OF",
+            "span": [
+              348,
+              378
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch011_word_0005",
+            "word_text": " ",
+            "span": [
+              378,
+              399
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch011_word_0006",
+            "word_text": "WHAT",
+            "span": [
+              399,
+              489
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch011_word_0007",
+            "word_text": " ",
+            "span": [
+              489,
+              573
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch011_word_0008",
+            "word_text": "BEFELL",
+            "span": [
+              573,
+              668
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch011_word_0009",
+            "word_text": " ",
+            "span": [
+              668,
+              674
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch011_word_0010",
+            "word_text": "DON",
+            "span": [
+              674,
+              705
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch011_word_0011",
+            "word_text": " ",
+            "span": [
+              705,
+              746
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch011_word_0012",
+            "word_text": "QUIXOTE",
+            "span": [
+              746,
+              988
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch011_word_0013",
+            "word_text": "\n",
+            "span": [
+              988,
+              997
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch011_word_0014",
+            "word_text": "WITH",
+            "span": [
+              997,
+              1024
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch011_word_0015",
+            "word_text": " ",
+            "span": [
+              1024,
+              1090
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch011_word_0016",
+            "word_text": "CERTAIN",
+            "span": [
+              1090,
+              1457
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch011_word_0017",
+            "word_text": " ",
+            "span": [
+              1457,
+              1475
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch011_word_0018",
+            "word_text": "GOATHERDS",
+            "span": [
+              1475,
+              1719
+            ],
+            "matches_full": true
+          }
+        ]
+      }
+    },
+    {
+      "chapter": 12,
+      "decode_matches_op": true,
+      "output_matches_processed": true,
+      "output_matches_original": true,
+      "words_match": true,
+      "bootstrap_detected": true,
+      "halt_reason": "halt_opcode",
+      "steps": 4205,
+      "executed_ratio": 0.9772,
+      "output_len": 156,
+      "opcodes": 4303,
+      "words_count": 53,
+      "word_files": {
+        "status": "checked",
+        "found": 53,
+        "concat_with_bootstrap_matches_full": true,
+        "last_word_includes_halt_v": true,
+        "words_match_count": 53,
+        "per_word": [
+          {
+            "file": "quijote_ch012_word_0000",
+            "word_text": "CHAPTER",
+            "span": [
+              100,
+              291
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0001",
+            "word_text": " ",
+            "span": [
+              291,
+              321
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0002",
+            "word_text": "XII",
+            "span": [
+              321,
+              341
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0003",
+            "word_text": " ",
+            "span": [
+              341,
+              379
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0004",
+            "word_text": "OF",
+            "span": [
+              379,
+              397
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0005",
+            "word_text": " ",
+            "span": [
+              397,
+              413
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0006",
+            "word_text": "WHAT",
+            "span": [
+              413,
+              567
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0007",
+            "word_text": " ",
+            "span": [
+              567,
+              573
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0008",
+            "word_text": "A",
+            "span": [
+              573,
+              602
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0009",
+            "word_text": "\n",
+            "span": [
+              602,
+              608
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0010",
+            "word_text": "GOATHERD",
+            "span": [
+              608,
+              854
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0011",
+            "word_text": " ",
+            "span": [
+              854,
+              890
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0012",
+            "word_text": "RELATED",
+            "span": [
+              890,
+              1105
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0013",
+            "word_text": " ",
+            "span": [
+              1105,
+              1134
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0014",
+            "word_text": "TO",
+            "span": [
+              1134,
+              1218
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0015",
+            "word_text": " ",
+            "span": [
+              1218,
+              1245
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0016",
+            "word_text": "THOSE",
+            "span": [
+              1245,
+              1373
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0017",
+            "word_text": " ",
+            "span": [
+              1373,
+              1403
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0018",
+            "word_text": "WITH",
+            "span": [
+              1403,
+              1468
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0019",
+            "word_text": " ",
+            "span": [
+              1468,
+              1470
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0020",
+            "word_text": "DON",
+            "span": [
+              1470,
+              1511
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0021",
+            "word_text": " ",
+            "span": [
+              1511,
+              1564
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0022",
+            "word_text": "QUIXOTE",
+            "span": [
+              1564,
+              1729
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0023",
+            "word_text": " \n\n",
+            "span": [
+              1729,
+              1780
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0024",
+            "word_text": "CHAPTER",
+            "span": [
+              1780,
+              2104
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0025",
+            "word_text": "\n",
+            "span": [
+              2104,
+              2128
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0026",
+            "word_text": "XIII",
+            "span": [
+              2128,
+              2154
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0027",
+            "word_text": " ",
+            "span": [
+              2154,
+              2238
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0028",
+            "word_text": "IN",
+            "span": [
+              2238,
+              2263
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0029",
+            "word_text": " ",
+            "span": [
+              2263,
+              2272
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0030",
+            "word_text": "WHICH",
+            "span": [
+              2272,
+              2425
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0031",
+            "word_text": " ",
+            "span": [
+              2425,
+              2449
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0032",
+            "word_text": "IS",
+            "span": [
+              2449,
+              2489
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0033",
+            "word_text": " ",
+            "span": [
+              2489,
+              2495
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0034",
+            "word_text": "ENDED",
+            "span": [
+              2495,
+              2603
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0035",
+            "word_text": " ",
+            "span": [
+              2603,
+              2638
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0036",
+            "word_text": "THE",
+            "span": [
+              2638,
+              2767
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0037",
+            "word_text": " ",
+            "span": [
+              2767,
+              2771
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0038",
+            "word_text": "STORY",
+            "span": [
+              2771,
+              2850
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0039",
+            "word_text": " ",
+            "span": [
+              2850,
+              2855
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0040",
+            "word_text": "OF",
+            "span": [
+              2855,
+              3009
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0041",
+            "word_text": " ",
+            "span": [
+              3009,
+              3045
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0042",
+            "word_text": "THE",
+            "span": [
+              3045,
+              3116
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0043",
+            "word_text": " ",
+            "span": [
+              3116,
+              3164
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0044",
+            "word_text": "SHEPHERDESS",
+            "span": [
+              3164,
+              3590
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0045",
+            "word_text": " ",
+            "span": [
+              3590,
+              3648
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0046",
+            "word_text": "MARCELA,",
+            "span": [
+              3648,
+              3961
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0047",
+            "word_text": " ",
+            "span": [
+              3961,
+              3984
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0048",
+            "word_text": "WITH",
+            "span": [
+              3984,
+              4028
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0049",
+            "word_text": "\n",
+            "span": [
+              4028,
+              4064
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0050",
+            "word_text": "OTHER",
+            "span": [
+              4064,
+              4149
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0051",
+            "word_text": " ",
+            "span": [
+              4149,
+              4183
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch012_word_0052",
+            "word_text": "INCIDENTS",
+            "span": [
+              4183,
+              4303
+            ],
+            "matches_full": true
+          }
+        ]
+      }
+    },
+    {
+      "chapter": 13,
+      "decode_matches_op": true,
+      "output_matches_processed": true,
+      "output_matches_original": true,
+      "words_match": true,
+      "bootstrap_detected": true,
+      "halt_reason": "halt_opcode",
+      "steps": 3203,
+      "executed_ratio": 0.9703,
+      "output_len": 121,
+      "opcodes": 3301,
+      "words_count": 37,
+      "word_files": {
+        "status": "checked",
+        "found": 37,
+        "concat_with_bootstrap_matches_full": true,
+        "last_word_includes_halt_v": true,
+        "words_match_count": 37,
+        "per_word": [
+          {
+            "file": "quijote_ch013_word_0000",
+            "word_text": "CHAPTER",
+            "span": [
+              100,
+              291
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch013_word_0001",
+            "word_text": " ",
+            "span": [
+              291,
+              321
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch013_word_0002",
+            "word_text": "XIV",
+            "span": [
+              321,
+              357
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch013_word_0003",
+            "word_text": " ",
+            "span": [
+              357,
+              379
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch013_word_0004",
+            "word_text": "WHEREIN",
+            "span": [
+              379,
+              587
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch013_word_0005",
+            "word_text": " ",
+            "span": [
+              587,
+              599
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch013_word_0006",
+            "word_text": "ARE",
+            "span": [
+              599,
+              707
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch013_word_0007",
+            "word_text": "\n",
+            "span": [
+              707,
+              715
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch013_word_0008",
+            "word_text": "INSERTED",
+            "span": [
+              715,
+              1104
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch013_word_0009",
+            "word_text": " ",
+            "span": [
+              1104,
+              1122
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch013_word_0010",
+            "word_text": "THE",
+            "span": [
+              1122,
+              1151
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch013_word_0011",
+            "word_text": " ",
+            "span": [
+              1151,
+              1174
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch013_word_0012",
+            "word_text": "DESPAIRING",
+            "span": [
+              1174,
+              1435
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch013_word_0013",
+            "word_text": " ",
+            "span": [
+              1435,
+              1445
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch013_word_0014",
+            "word_text": "VERSES",
+            "span": [
+              1445,
+              1712
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch013_word_0015",
+            "word_text": " ",
+            "span": [
+              1712,
+              1729
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch013_word_0016",
+            "word_text": "OF",
+            "span": [
+              1729,
+              1747
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch013_word_0017",
+            "word_text": " ",
+            "span": [
+              1747,
+              1765
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch013_word_0018",
+            "word_text": "THE",
+            "span": [
+              1765,
+              1800
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch013_word_0019",
+            "word_text": " ",
+            "span": [
+              1800,
+              1804
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch013_word_0020",
+            "word_text": "DEAD",
+            "span": [
+              1804,
+              1906
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch013_word_0021",
+            "word_text": " ",
+            "span": [
+              1906,
+              1917
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch013_word_0022",
+            "word_text": "SHEPHERD,",
+            "span": [
+              1917,
+              2122
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch013_word_0023",
+            "word_text": " ",
+            "span": [
+              2122,
+              2134
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch013_word_0024",
+            "word_text": "TOGETHER",
+            "span": [
+              2134,
+              2417
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch013_word_0025",
+            "word_text": " ",
+            "span": [
+              2417,
+              2453
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch013_word_0026",
+            "word_text": "WITH",
+            "span": [
+              2453,
+              2629
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch013_word_0027",
+            "word_text": " ",
+            "span": [
+              2629,
+              2683
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch013_word_0028",
+            "word_text": "OTHER",
+            "span": [
+              2683,
+              2746
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch013_word_0029",
+            "word_text": "\n",
+            "span": [
+              2746,
+              2757
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch013_word_0030",
+            "word_text": "INCIDENTS",
+            "span": [
+              2757,
+              3030
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch013_word_0031",
+            "word_text": " ",
+            "span": [
+              3030,
+              3045
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch013_word_0032",
+            "word_text": "NOT",
+            "span": [
+              3045,
+              3090
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch013_word_0033",
+            "word_text": " ",
+            "span": [
+              3090,
+              3108
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch013_word_0034",
+            "word_text": "LOOKED",
+            "span": [
+              3108,
+              3167
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch013_word_0035",
+            "word_text": " ",
+            "span": [
+              3167,
+              3244
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch013_word_0036",
+            "word_text": "FOR",
+            "span": [
+              3244,
+              3301
+            ],
+            "matches_full": true
+          }
+        ]
+      }
+    },
+    {
+      "chapter": 14,
+      "decode_matches_op": true,
+      "output_matches_processed": true,
+      "output_matches_original": true,
+      "words_match": true,
+      "bootstrap_detected": true,
+      "halt_reason": "halt_opcode",
+      "steps": 5996,
+      "executed_ratio": 0.9839,
+      "output_len": 235,
+      "opcodes": 6094,
+      "words_count": 83,
+      "word_files": {
+        "status": "checked",
+        "found": 83,
+        "concat_with_bootstrap_matches_full": true,
+        "last_word_includes_halt_v": true,
+        "words_match_count": 83,
+        "per_word": [
+          {
+            "file": "quijote_ch014_word_0000",
+            "word_text": "CHAPTER",
+            "span": [
+              100,
+              291
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0001",
+            "word_text": " ",
+            "span": [
+              291,
+              321
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0002",
+            "word_text": "XV",
+            "span": [
+              321,
+              339
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0003",
+            "word_text": " ",
+            "span": [
+              339,
+              348
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0004",
+            "word_text": "IN",
+            "span": [
+              348,
+              391
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0005",
+            "word_text": " ",
+            "span": [
+              391,
+              413
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0006",
+            "word_text": "WHICH",
+            "span": [
+              413,
+              588
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0007",
+            "word_text": "\n",
+            "span": [
+              588,
+              621
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0008",
+            "word_text": "IS",
+            "span": [
+              621,
+              674
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0009",
+            "word_text": " ",
+            "span": [
+              674,
+              695
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0010",
+            "word_text": "RELATED",
+            "span": [
+              695,
+              900
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0011",
+            "word_text": " ",
+            "span": [
+              900,
+              912
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0012",
+            "word_text": "THE",
+            "span": [
+              912,
+              948
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0013",
+            "word_text": " ",
+            "span": [
+              948,
+              977
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0014",
+            "word_text": "UNFORTUNATE",
+            "span": [
+              977,
+              1335
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0015",
+            "word_text": " ",
+            "span": [
+              1335,
+              1419
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0016",
+            "word_text": "ADVENTURE",
+            "span": [
+              1419,
+              1628
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0017",
+            "word_text": " ",
+            "span": [
+              1628,
+              1633
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0018",
+            "word_text": "THAT",
+            "span": [
+              1633,
+              1695
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0019",
+            "word_text": " ",
+            "span": [
+              1695,
+              1719
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0020",
+            "word_text": "DON",
+            "span": [
+              1719,
+              1789
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0021",
+            "word_text": " ",
+            "span": [
+              1789,
+              1801
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0022",
+            "word_text": "QUIXOTE",
+            "span": [
+              1801,
+              1988
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0023",
+            "word_text": " ",
+            "span": [
+              1988,
+              1997
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0024",
+            "word_text": "FELL",
+            "span": [
+              1997,
+              2135
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0025",
+            "word_text": " ",
+            "span": [
+              2135,
+              2140
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0026",
+            "word_text": "IN",
+            "span": [
+              2140,
+              2211
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0027",
+            "word_text": " ",
+            "span": [
+              2211,
+              2228
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0028",
+            "word_text": "WITH",
+            "span": [
+              2228,
+              2359
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0029",
+            "word_text": " ",
+            "span": [
+              2359,
+              2395
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0030",
+            "word_text": "WHEN",
+            "span": [
+              2395,
+              2478
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0031",
+            "word_text": " ",
+            "span": [
+              2478,
+              2481
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0032",
+            "word_text": "HE",
+            "span": [
+              2481,
+              2520
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0033",
+            "word_text": "\n",
+            "span": [
+              2520,
+              2526
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0034",
+            "word_text": "FELL",
+            "span": [
+              2526,
+              2650
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0035",
+            "word_text": " ",
+            "span": [
+              2650,
+              2655
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0036",
+            "word_text": "OUT",
+            "span": [
+              2655,
+              2693
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0037",
+            "word_text": " ",
+            "span": [
+              2693,
+              2705
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0038",
+            "word_text": "WITH",
+            "span": [
+              2705,
+              2731
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0039",
+            "word_text": " ",
+            "span": [
+              2731,
+              2763
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0040",
+            "word_text": "CERTAIN",
+            "span": [
+              2763,
+              3055
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0041",
+            "word_text": " ",
+            "span": [
+              3055,
+              3073
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0042",
+            "word_text": "HEARTLESS",
+            "span": [
+              3073,
+              3387
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0043",
+            "word_text": " ",
+            "span": [
+              3387,
+              3392
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0044",
+            "word_text": "YANGUESANS",
+            "span": [
+              3392,
+              3667
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0045",
+            "word_text": " \n\n",
+            "span": [
+              3667,
+              3735
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0046",
+            "word_text": "CHAPTER",
+            "span": [
+              3735,
+              4005
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0047",
+            "word_text": "\n",
+            "span": [
+              4005,
+              4029
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0048",
+            "word_text": "XVI",
+            "span": [
+              4029,
+              4059
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0049",
+            "word_text": " ",
+            "span": [
+              4059,
+              4065
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0050",
+            "word_text": "OF",
+            "span": [
+              4065,
+              4176
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0051",
+            "word_text": " ",
+            "span": [
+              4176,
+              4241
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0052",
+            "word_text": "WHAT",
+            "span": [
+              4241,
+              4396
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0053",
+            "word_text": " ",
+            "span": [
+              4396,
+              4455
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0054",
+            "word_text": "HAPPENED",
+            "span": [
+              4455,
+              4575
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0055",
+            "word_text": " ",
+            "span": [
+              4575,
+              4578
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0056",
+            "word_text": "TO",
+            "span": [
+              4578,
+              4638
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0057",
+            "word_text": " ",
+            "span": [
+              4638,
+              4672
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0058",
+            "word_text": "THE",
+            "span": [
+              4672,
+              4760
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0059",
+            "word_text": " ",
+            "span": [
+              4760,
+              4776
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0060",
+            "word_text": "INGENIOUS",
+            "span": [
+              4776,
+              4863
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0061",
+            "word_text": " ",
+            "span": [
+              4863,
+              4893
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0062",
+            "word_text": "GENTLEMAN",
+            "span": [
+              4893,
+              5051
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0063",
+            "word_text": " ",
+            "span": [
+              5051,
+              5099
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0064",
+            "word_text": "IN",
+            "span": [
+              5099,
+              5123
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0065",
+            "word_text": " ",
+            "span": [
+              5123,
+              5164
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0066",
+            "word_text": "THE",
+            "span": [
+              5164,
+              5193
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0067",
+            "word_text": " ",
+            "span": [
+              5193,
+              5235
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0068",
+            "word_text": "INN",
+            "span": [
+              5235,
+              5273
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0069",
+            "word_text": " ",
+            "span": [
+              5273,
+              5309
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0070",
+            "word_text": "WHICH",
+            "span": [
+              5309,
+              5492
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0071",
+            "word_text": " ",
+            "span": [
+              5492,
+              5528
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0072",
+            "word_text": "HE",
+            "span": [
+              5528,
+              5573
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0073",
+            "word_text": "\n",
+            "span": [
+              5573,
+              5603
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0074",
+            "word_text": "TOOK",
+            "span": [
+              5603,
+              5658
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0075",
+            "word_text": " ",
+            "span": [
+              5658,
+              5676
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0076",
+            "word_text": "TO",
+            "span": [
+              5676,
+              5722
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0077",
+            "word_text": " ",
+            "span": [
+              5722,
+              5740
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0078",
+            "word_text": "BE",
+            "span": [
+              5740,
+              5791
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0079",
+            "word_text": " ",
+            "span": [
+              5791,
+              5839
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0080",
+            "word_text": "A",
+            "span": [
+              5839,
+              5861
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0081",
+            "word_text": " ",
+            "span": [
+              5861,
+              5865
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch014_word_0082",
+            "word_text": "CASTLE",
+            "span": [
+              5865,
+              6094
+            ],
+            "matches_full": true
+          }
+        ]
+      }
+    },
+    {
+      "chapter": 15,
+      "decode_matches_op": true,
+      "output_matches_processed": true,
+      "output_matches_original": true,
+      "words_match": true,
+      "bootstrap_detected": true,
+      "halt_reason": "halt_opcode",
+      "steps": 4799,
+      "executed_ratio": 0.98,
+      "output_len": 188,
+      "opcodes": 4897,
+      "words_count": 67,
+      "word_files": {
+        "status": "checked",
+        "found": 67,
+        "concat_with_bootstrap_matches_full": true,
+        "last_word_includes_halt_v": true,
+        "words_match_count": 67,
+        "per_word": [
+          {
+            "file": "quijote_ch015_word_0000",
+            "word_text": "CHAPTER",
+            "span": [
+              100,
+              291
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0001",
+            "word_text": " ",
+            "span": [
+              291,
+              321
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0002",
+            "word_text": "XVII",
+            "span": [
+              321,
+              353
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0003",
+            "word_text": " ",
+            "span": [
+              353,
+              379
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0004",
+            "word_text": "IN",
+            "span": [
+              379,
+              410
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0005",
+            "word_text": " ",
+            "span": [
+              410,
+              413
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0006",
+            "word_text": "WHICH",
+            "span": [
+              413,
+              663
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0007",
+            "word_text": "\n",
+            "span": [
+              663,
+              684
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0008",
+            "word_text": "ARE",
+            "span": [
+              684,
+              783
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0009",
+            "word_text": " ",
+            "span": [
+              783,
+              883
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0010",
+            "word_text": "CONTAINED",
+            "span": [
+              883,
+              995
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0011",
+            "word_text": " ",
+            "span": [
+              995,
+              1013
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0012",
+            "word_text": "THE",
+            "span": [
+              1013,
+              1030
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0013",
+            "word_text": " ",
+            "span": [
+              1030,
+              1090
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0014",
+            "word_text": "INNUMERABLE",
+            "span": [
+              1090,
+              1325
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0015",
+            "word_text": " ",
+            "span": [
+              1325,
+              1337
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0016",
+            "word_text": "TROUBLES",
+            "span": [
+              1337,
+              1585
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0017",
+            "word_text": " ",
+            "span": [
+              1585,
+              1609
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0018",
+            "word_text": "WHICH",
+            "span": [
+              1609,
+              1914
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0019",
+            "word_text": " ",
+            "span": [
+              1914,
+              1925
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0020",
+            "word_text": "THE",
+            "span": [
+              1925,
+              1997
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0021",
+            "word_text": " ",
+            "span": [
+              1997,
+              2013
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0022",
+            "word_text": "BRAVE",
+            "span": [
+              2013,
+              2222
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0023",
+            "word_text": " ",
+            "span": [
+              2222,
+              2293
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0024",
+            "word_text": "DON",
+            "span": [
+              2293,
+              2357
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0025",
+            "word_text": " ",
+            "span": [
+              2357,
+              2393
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0026",
+            "word_text": "QUIXOTE",
+            "span": [
+              2393,
+              2504
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0027",
+            "word_text": " ",
+            "span": [
+              2504,
+              2510
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0028",
+            "word_text": "AND",
+            "span": [
+              2510,
+              2669
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0029",
+            "word_text": " ",
+            "span": [
+              2669,
+              2673
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0030",
+            "word_text": "HIS",
+            "span": [
+              2673,
+              2713
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0031",
+            "word_text": "\n",
+            "span": [
+              2713,
+              2718
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0032",
+            "word_text": "GOOD",
+            "span": [
+              2718,
+              2797
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0033",
+            "word_text": " ",
+            "span": [
+              2797,
+              2836
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0034",
+            "word_text": "SQUIRE",
+            "span": [
+              2836,
+              2894
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0035",
+            "word_text": " ",
+            "span": [
+              2894,
+              2974
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0036",
+            "word_text": "SANCHO",
+            "span": [
+              2974,
+              3107
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0037",
+            "word_text": " ",
+            "span": [
+              3107,
+              3125
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0038",
+            "word_text": "PANZA",
+            "span": [
+              3125,
+              3159
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0039",
+            "word_text": " ",
+            "span": [
+              3159,
+              3189
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0040",
+            "word_text": "ENDURED",
+            "span": [
+              3189,
+              3361
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0041",
+            "word_text": " ",
+            "span": [
+              3361,
+              3383
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0042",
+            "word_text": "IN",
+            "span": [
+              3383,
+              3407
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0043",
+            "word_text": " ",
+            "span": [
+              3407,
+              3449
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0044",
+            "word_text": "THE",
+            "span": [
+              3449,
+              3621
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0045",
+            "word_text": " ",
+            "span": [
+              3621,
+              3675
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0046",
+            "word_text": "INN,",
+            "span": [
+              3675,
+              3718
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0047",
+            "word_text": " ",
+            "span": [
+              3718,
+              3730
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0048",
+            "word_text": "WHICH",
+            "span": [
+              3730,
+              3829
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0049",
+            "word_text": " ",
+            "span": [
+              3829,
+              3865
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0050",
+            "word_text": "TO",
+            "span": [
+              3865,
+              3883
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0051",
+            "word_text": " ",
+            "span": [
+              3883,
+              3891
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0052",
+            "word_text": "HIS",
+            "span": [
+              3891,
+              3923
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0053",
+            "word_text": " ",
+            "span": [
+              3923,
+              3935
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0054",
+            "word_text": "MISFORTUNE",
+            "span": [
+              3935,
+              4132
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0055",
+            "word_text": " ",
+            "span": [
+              4132,
+              4159
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0056",
+            "word_text": "HE",
+            "span": [
+              4159,
+              4332
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0057",
+            "word_text": "\n",
+            "span": [
+              4332,
+              4343
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0058",
+            "word_text": "TOOK",
+            "span": [
+              4343,
+              4471
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0059",
+            "word_text": " ",
+            "span": [
+              4471,
+              4480
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0060",
+            "word_text": "TO",
+            "span": [
+              4480,
+              4515
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0061",
+            "word_text": " ",
+            "span": [
+              4515,
+              4538
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0062",
+            "word_text": "BE",
+            "span": [
+              4538,
+              4555
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0063",
+            "word_text": " ",
+            "span": [
+              4555,
+              4621
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0064",
+            "word_text": "A",
+            "span": [
+              4621,
+              4704
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0065",
+            "word_text": " ",
+            "span": [
+              4704,
+              4737
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch015_word_0066",
+            "word_text": "CASTLE",
+            "span": [
+              4737,
+              4897
+            ],
+            "matches_full": true
+          }
+        ]
+      }
+    },
+    {
+      "chapter": 16,
+      "decode_matches_op": true,
+      "output_matches_processed": true,
+      "output_matches_original": true,
+      "words_match": true,
+      "bootstrap_detected": true,
+      "halt_reason": "halt_opcode",
+      "steps": 3258,
+      "executed_ratio": 0.9708,
+      "output_len": 131,
+      "opcodes": 3356,
+      "words_count": 41,
+      "word_files": {
+        "status": "checked",
+        "found": 41,
+        "concat_with_bootstrap_matches_full": true,
+        "last_word_includes_halt_v": true,
+        "words_match_count": 41,
+        "per_word": [
+          {
+            "file": "quijote_ch016_word_0000",
+            "word_text": "CHAPTER",
+            "span": [
+              100,
+              291
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch016_word_0001",
+            "word_text": " ",
+            "span": [
+              291,
+              321
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch016_word_0002",
+            "word_text": "XVIII",
+            "span": [
+              321,
+              355
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch016_word_0003",
+            "word_text": " ",
+            "span": [
+              355,
+              378
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch016_word_0004",
+            "word_text": "IN",
+            "span": [
+              378,
+              410
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch016_word_0005",
+            "word_text": " ",
+            "span": [
+              410,
+              413
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch016_word_0006",
+            "word_text": "WHICH",
+            "span": [
+              413,
+              663
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch016_word_0007",
+            "word_text": "\n",
+            "span": [
+              663,
+              684
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch016_word_0008",
+            "word_text": "IS",
+            "span": [
+              684,
+              696
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch016_word_0009",
+            "word_text": " ",
+            "span": [
+              696,
+              724
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch016_word_0010",
+            "word_text": "RELATED",
+            "span": [
+              724,
+              901
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch016_word_0011",
+            "word_text": " ",
+            "span": [
+              901,
+              912
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch016_word_0012",
+            "word_text": "THE",
+            "span": [
+              912,
+              981
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch016_word_0013",
+            "word_text": " ",
+            "span": [
+              981,
+              987
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch016_word_0014",
+            "word_text": "DISCOURSE",
+            "span": [
+              987,
+              1285
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch016_word_0015",
+            "word_text": " ",
+            "span": [
+              1285,
+              1288
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch016_word_0016",
+            "word_text": "SANCHO",
+            "span": [
+              1288,
+              1510
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch016_word_0017",
+            "word_text": " ",
+            "span": [
+              1510,
+              1515
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch016_word_0018",
+            "word_text": "PANZA",
+            "span": [
+              1515,
+              1595
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch016_word_0019",
+            "word_text": " ",
+            "span": [
+              1595,
+              1635
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch016_word_0020",
+            "word_text": "HELD",
+            "span": [
+              1635,
+              1686
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch016_word_0021",
+            "word_text": " ",
+            "span": [
+              1686,
+              1710
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch016_word_0022",
+            "word_text": "WITH",
+            "span": [
+              1710,
+              1753
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch016_word_0023",
+            "word_text": " ",
+            "span": [
+              1753,
+              1794
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch016_word_0024",
+            "word_text": "HIS",
+            "span": [
+              1794,
+              1906
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch016_word_0025",
+            "word_text": " ",
+            "span": [
+              1906,
+              1917
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch016_word_0026",
+            "word_text": "MASTER,",
+            "span": [
+              1917,
+              2169
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch016_word_0027",
+            "word_text": " ",
+            "span": [
+              2169,
+              2178
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch016_word_0028",
+            "word_text": "DON",
+            "span": [
+              2178,
+              2245
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch016_word_0029",
+            "word_text": " ",
+            "span": [
+              2245,
+              2262
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch016_word_0030",
+            "word_text": "QUIXOTE,",
+            "span": [
+              2262,
+              2401
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch016_word_0031",
+            "word_text": "\n",
+            "span": [
+              2401,
+              2407
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch016_word_0032",
+            "word_text": "AND",
+            "span": [
+              2407,
+              2487
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch016_word_0033",
+            "word_text": " ",
+            "span": [
+              2487,
+              2510
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch016_word_0034",
+            "word_text": "OTHER",
+            "span": [
+              2510,
+              2663
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch016_word_0035",
+            "word_text": " ",
+            "span": [
+              2663,
+              2667
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch016_word_0036",
+            "word_text": "ADVENTURES",
+            "span": [
+              2667,
+              2917
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch016_word_0037",
+            "word_text": " ",
+            "span": [
+              2917,
+              2929
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch016_word_0038",
+            "word_text": "WORTH",
+            "span": [
+              2929,
+              3023
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch016_word_0039",
+            "word_text": " ",
+            "span": [
+              3023,
+              3045
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch016_word_0040",
+            "word_text": "RELATING",
+            "span": [
+              3045,
+              3356
+            ],
+            "matches_full": true
+          }
+        ]
+      }
+    },
+    {
+      "chapter": 17,
+      "decode_matches_op": true,
+      "output_matches_processed": true,
+      "output_matches_original": true,
+      "words_match": true,
+      "bootstrap_detected": true,
+      "halt_reason": "halt_opcode",
+      "steps": 4402,
+      "executed_ratio": 0.9782,
+      "output_len": 165,
+      "opcodes": 4500,
+      "words_count": 55,
+      "word_files": {
+        "status": "checked",
+        "found": 55,
+        "concat_with_bootstrap_matches_full": true,
+        "last_word_includes_halt_v": true,
+        "words_match_count": 55,
+        "per_word": [
+          {
+            "file": "quijote_ch017_word_0000",
+            "word_text": "CHAPTER",
+            "span": [
+              100,
+              291
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0001",
+            "word_text": " ",
+            "span": [
+              291,
+              321
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0002",
+            "word_text": "XIX",
+            "span": [
+              321,
+              350
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0003",
+            "word_text": "\n",
+            "span": [
+              350,
+              427
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0004",
+            "word_text": "OF",
+            "span": [
+              427,
+              432
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0005",
+            "word_text": " ",
+            "span": [
+              432,
+              436
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0006",
+            "word_text": "THE",
+            "span": [
+              436,
+              493
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0007",
+            "word_text": " ",
+            "span": [
+              493,
+              505
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0008",
+            "word_text": "SHREWD",
+            "span": [
+              505,
+              749
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0009",
+            "word_text": " ",
+            "span": [
+              749,
+              755
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0010",
+            "word_text": "DISCOURSE",
+            "span": [
+              755,
+              1061
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0011",
+            "word_text": " ",
+            "span": [
+              1061,
+              1066
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0012",
+            "word_text": "WHICH",
+            "span": [
+              1066,
+              1120
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0013",
+            "word_text": " ",
+            "span": [
+              1120,
+              1144
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0014",
+            "word_text": "SANCHO",
+            "span": [
+              1144,
+              1223
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0015",
+            "word_text": " ",
+            "span": [
+              1223,
+              1259
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0016",
+            "word_text": "HELD",
+            "span": [
+              1259,
+              1287
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0017",
+            "word_text": " ",
+            "span": [
+              1287,
+              1339
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0018",
+            "word_text": "WITH",
+            "span": [
+              1339,
+              1426
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0019",
+            "word_text": " ",
+            "span": [
+              1426,
+              1461
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0020",
+            "word_text": "HIS",
+            "span": [
+              1461,
+              1521
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0021",
+            "word_text": " ",
+            "span": [
+              1521,
+              1527
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0022",
+            "word_text": "MASTER,",
+            "span": [
+              1527,
+              1740
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0023",
+            "word_text": " ",
+            "span": [
+              1740,
+              1751
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0024",
+            "word_text": "AND",
+            "span": [
+              1751,
+              1851
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0025",
+            "word_text": " ",
+            "span": [
+              1851,
+              1886
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0026",
+            "word_text": "OF",
+            "span": [
+              1886,
+              1901
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0027",
+            "word_text": " ",
+            "span": [
+              1901,
+              1925
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0028",
+            "word_text": "THE",
+            "span": [
+              1925,
+              1982
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0029",
+            "word_text": "\n",
+            "span": [
+              1982,
+              1987
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0030",
+            "word_text": "ADVENTURE",
+            "span": [
+              1987,
+              2219
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0031",
+            "word_text": " ",
+            "span": [
+              2219,
+              2291
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0032",
+            "word_text": "THAT",
+            "span": [
+              2291,
+              2396
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0033",
+            "word_text": " ",
+            "span": [
+              2396,
+              2510
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0034",
+            "word_text": "BEFELL",
+            "span": [
+              2510,
+              2811
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0035",
+            "word_text": " ",
+            "span": [
+              2811,
+              2823
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0036",
+            "word_text": "HIM",
+            "span": [
+              2823,
+              3028
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0037",
+            "word_text": " ",
+            "span": [
+              3028,
+              3082
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0038",
+            "word_text": "WITH",
+            "span": [
+              3082,
+              3126
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0039",
+            "word_text": " ",
+            "span": [
+              3126,
+              3162
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0040",
+            "word_text": "A",
+            "span": [
+              3162,
+              3173
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0041",
+            "word_text": " ",
+            "span": [
+              3173,
+              3202
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0042",
+            "word_text": "DEAD",
+            "span": [
+              3202,
+              3233
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0043",
+            "word_text": " ",
+            "span": [
+              3233,
+              3239
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0044",
+            "word_text": "BODY,",
+            "span": [
+              3239,
+              3449
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0045",
+            "word_text": " ",
+            "span": [
+              3449,
+              3472
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0046",
+            "word_text": "TOGETHER",
+            "span": [
+              3472,
+              3637
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0047",
+            "word_text": " ",
+            "span": [
+              3637,
+              3660
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0048",
+            "word_text": "WITH",
+            "span": [
+              3660,
+              3801
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0049",
+            "word_text": " ",
+            "span": [
+              3801,
+              3848
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0050",
+            "word_text": "OTHER",
+            "span": [
+              3848,
+              4013
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0051",
+            "word_text": " ",
+            "span": [
+              4013,
+              4048
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0052",
+            "word_text": "NOTABLE",
+            "span": [
+              4048,
+              4196
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0053",
+            "word_text": "\n",
+            "span": [
+              4196,
+              4214
+            ],
+            "matches_full": true
+          },
+          {
+            "file": "quijote_ch017_word_0054",
+            "word_text": "OCCURRENCES",
+            "span": [
+              4214,
+              4500
+            ],
+            "matches_full": true
+          }
+        ]
+      }
+    }
+  ],
+  "total": 17,
+  "failures": 0
+}
