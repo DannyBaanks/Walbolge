@@ -1,0 +1,23 @@
+[exceptions]
+ISYCO_NAME = [
+  "README.md:Walbolge",
+  "pyproject.toml:Walbolge",
+  "walbolge/__init__.py:Walbolge",
+  "walbolge/__main__.py:Walbolge",
+  "walbolge/analyze_alignment.py:Walbolge",
+  "walbolge/cli.py:Walbolge",
+  "walbolge/compose.py:Walbolge",
+  "walbolge/decoder.py:Walbolge",
+  "walbolge/inspect_structure.py:Walbolge",
+  "walbolge/paths.py:Walbolge",
+  "walbolge/probe_fill.py:Walbolge",
+  "walbolge/probe_meter_check.py:Walbolge",
+  "walbolge/probe_quine.py:Walbolge",
+  "walbolge/probe_quine_output.py:Walbolge",
+  "walbolge/probe_stepdiff.py:Walbolge",
+  "walbolge/probe_stepdiff2.py:Walbolge",
+  "walbolge/probe_stepdiff3.py:Walbolge",
+  "walbolge/probe_stepdiff4.py:Walbolge",
+  "walbolge/probe_tables.py:Walbolge",
+  "tests/test_roundtrip.py:Walbolge",
+]
