@@ -122,3 +122,9 @@ que mutar a nivel de fuente daña casi cualquier celda sin importar su función.
 El resultado negativo está en `evidence/walbolge_test_19_celdas.json` junto con
 el positivo, porque una hipótesis refutada es evidencia igual que una
 confirmada.
+
+
+## Archivos añadidos al repositorio (2026-10-31)
+
+El commit `c0320ad` versiona `.repo-engine-exceptions.toml`, las excepciones del
+gate de repo-engine que estaban sin control de versiones.
