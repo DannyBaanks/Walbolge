@@ -1,12 +1,16 @@
-# Walbolge
+# Walbolge v2.0 — Decompilador e Inversor de Malbolge Translator & Autobolge 2.0
 
-**El inverso del [Malbolge Translator](https://github.com/DannyBaanks/Malbolge-Translator).**
+[![Version](https://img.shields.io/badge/version-2.0-blue.svg)](https://github.com/DannyBaanks/Walbolge)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://python.org)
+[![Tests](https://img.shields.io/badge/tests-PASS-brightgreen.svg)]()
 
-Malbolge Translator: texto → programa Malbolge (.mal / .op).
-**Walbolge: programa Malbolge → texto + estructura (decompilación).**
+**El inversor estructural y decompilador para [Malbolge Translator](https://github.com/DannyBaanks/Malbolge-Translator) y [Autobolge 2.0](https://github.com/DannyBaanks/Autobolge).**
+
+Malbolge Translator / Autobolge: texto → programa Malbolge (.mal / .op).
+**Walbolge: programa Malbolge → texto + estructura (decompilación y análisis de loops).**
 
 El nombre es el juego de palabras de la inversión: MALBOLGE → **W**ALBOLGE.
-Misma familia Bolge, dirección contraria.
+Misma familia Bolge, dirección contraria. Forma parte de la **Suite de Herramientas v2.0**.
 
 ## Qué hace
 
