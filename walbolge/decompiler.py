@@ -19,6 +19,7 @@ from .decoder import DecodedProgram, decode_program, load_opcodes
 from .trace import TraceResult, trace_program
 
 BOOTSTRAP_OPS = "i" + "o" * 99
+AUTOBOLGE_CONVEYOR_BOOTSTRAP_MIN = 3000
 
 
 @dataclass
@@ -57,7 +58,7 @@ class SegmentInfo:
                 "opcode_end": self.opcode_end, "description": self.description}
 
 
-def detect_bootstrap(opcodes: str) -> Optional[dict]:
+def detect_bootstrap(opcodes: str, trace: Optional[TraceResult] = None) -> Optional[dict]:
     if opcodes.startswith(BOOTSTRAP_OPS):
         return {"opcode_start": 0, "opcode_end": 100, "kind": "bootstrap"}
     head = opcodes[:120]
@@ -65,7 +66,44 @@ def detect_bootstrap(opcodes: str) -> Optional[dict]:
         first_i = head.index("i")
         if opcodes[first_i:first_i + 100] == BOOTSTRAP_OPS:
             return {"opcode_start": first_i, "opcode_end": first_i + 100, "kind": "bootstrap"}
+    if trace and trace.jumps:
+        first_jump = trace.jumps[0]
+        target = first_jump.get("target", 0)
+        from_c = first_jump.get("from_c", 0)
+        if target >= AUTOBOLGE_CONVEYOR_BOOTSTRAP_MIN and target > from_c:
+            return {
+                "opcode_start": 0,
+                "opcode_end": from_c + 1,
+                "kind": "bootstrap_conveyor",
+                "jump_target": target,
+                "sterile_gap": [from_c + 1, target],
+            }
     return None
+
+
+def detect_odometer_loops(trace: TraceResult) -> List[dict]:
+    """Detecta lazos y contadores de odómetro (ej. ripple counter ciclo-5 XLAT2)."""
+    if not trace.events or len(trace.events) < 15:
+        return []
+    pc_seq = [e.c for e in trace.events]
+    loops = []
+    for period in (5, 6, 8, 10, 12):
+        if len(pc_seq) < period * 3:
+            continue
+        matches = 0
+        total = len(pc_seq) - period
+        for i in range(total):
+            if pc_seq[i] == pc_seq[i + period]:
+                matches += 1
+        ratio = matches / total
+        if ratio >= 0.75:
+            loops.append({
+                "period": period,
+                "confidence": round(ratio, 4),
+                "type": "xlat2_ripple_counter" if period == 5 else "periodic_loop",
+            })
+            break
+    return loops
 
 
 def split_words(text: str) -> List[str]:
@@ -133,7 +171,7 @@ def decompile(source_text: Optional[str] = None,
                                        max_events=max_events,
                                        max_jumps=max_jumps, classic=classic)
 
-    bootstrap = detect_bootstrap(opcodes)
+    bootstrap = detect_bootstrap(opcodes, trace=trace)
     bootstrap_end = bootstrap["opcode_end"] if bootstrap else 0
 
     words = _build_words(trace, bootstrap_end)
@@ -146,9 +184,18 @@ def decompile(source_text: Optional[str] = None,
 
     segments: List[SegmentInfo] = []
     if bootstrap:
-        segments.append(SegmentInfo("bootstrap", bootstrap["opcode_start"],
-                                    bootstrap["opcode_end"],
-                                    "estado ancla (i + o*99)"))
+        if bootstrap.get("kind") == "bootstrap_conveyor":
+            segments.append(SegmentInfo("bootstrap_conveyor", bootstrap["opcode_start"],
+                                        bootstrap["opcode_end"],
+                                        f"conveyor bootstrap (salto a {bootstrap.get('jump_target')})"))
+            gap = bootstrap.get("sterile_gap")
+            if gap:
+                segments.append(SegmentInfo("sterile_gap", gap[0], gap[1],
+                                            f"hueco estéril [{gap[0]}, {gap[1]})"))
+        else:
+            segments.append(SegmentInfo("bootstrap", bootstrap["opcode_start"],
+                                        bootstrap["opcode_end"],
+                                        "estado ancla (i + o*99)"))
     if words:
         words_start = words[0].opcode_span[0]
         words_end = words[-1].opcode_span[1]
@@ -206,6 +253,7 @@ def decompile(source_text: Optional[str] = None,
         "never_executed": never_executed,
         "jumps": trace.jumps,
         "jumps_count": trace.jumps_count,
+        "loops": detect_odometer_loops(trace),
         "written_positions": sorted(trace.written_positions),
         "words": [w.to_dict() for w in words],
         "segments": [s.to_dict() for s in segments],

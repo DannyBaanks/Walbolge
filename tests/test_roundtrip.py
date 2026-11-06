@@ -78,5 +78,9 @@ def main() -> int:
     return 1 if failures else 0
 
 
+def test_roundtrip_all_chapters():
+    assert main() == 0
+
+
 if __name__ == "__main__":
     raise SystemExit(main())

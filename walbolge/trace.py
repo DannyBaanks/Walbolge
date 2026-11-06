@@ -148,9 +148,16 @@ def trace_program(opcodes: str, max_steps: int = 5_000_000,
                 halt_reason = "classic_non_printable"
                 break
         elif c >= program_length:
-            halted = True
-            halt_reason = "program_end"
-            break
+            if result.jumps_count > 0 and c < MAX_ADDRESS_SPACE:
+                ensure_capacity(c)
+                if tape[c] < 33 or tape[c] > 126:
+                    halted = True
+                    halt_reason = "classic_non_printable"
+                    break
+            else:
+                halted = True
+                halt_reason = "program_end"
+                break
 
         ensure_capacity(c)
         cell_value = tape[c]
